@@ -54,8 +54,17 @@ Execute Webpack
 ```sh
 yarn webpack
 ```
-Auto 
+
+Auto refer to javascript file
 ```sh
 yarn add html-webpack-plugin -D
 ```
 
+Auto conversion after changes
+```sh
+yarn add webpack-dev-server -D
+```
+Execute Webpack Serve
+```sh
+yarn webpack serve
+```
