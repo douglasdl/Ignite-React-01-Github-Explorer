@@ -68,3 +68,12 @@ Execute Webpack Serve
 ```sh
 yarn webpack serve
 ```
+Create ENV variable (Mac or Linux only)
+```sh
+NODE_ENV=production yarn webpack
+```
+
+Create ENV variable (For any OS)
+```sh
+yarn add cross-env -D
+```
