@@ -54,4 +54,8 @@ Execute Webpack
 ```sh
 yarn webpack
 ```
+Auto 
+```sh
+yarn add html-webpack-plugin -D
+```
 
