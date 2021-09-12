@@ -54,6 +54,19 @@ Integration Babel with Webpack (css)
 ```sh
 yarn add style-loader css-loader -D
 ```
+Integration Babel with Webpack (SasS)
+```sh
+yarn add sass-loader -D
+```
+```sh
+yarn add sass -D
+```
+```sh
+yarn remove sass -D
+```
+```sh
+yarn add node-sass -D
+```
 
 Execute Webpack
 ```sh
@@ -83,5 +96,5 @@ Create ENV variable (For any OS)
 yarn add cross-env -D
 ```
 
-
+(SasS)[https://sass-lang.com]: Syntactically Awesome Style Sheets 
 
