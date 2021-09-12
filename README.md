@@ -46,10 +46,15 @@ Installation
 ```sh
 yarn add webpack webpack-cli webpack-dev-server -D
 ```
-Integration Babel with Webpack
+Integration Babel with Webpack (js, jsx)
 ```sh
 yarn add babel-loader -D
 ```
+Integration Babel with Webpack (css)
+```sh
+yarn add style-loader css-loader -D
+```
+
 Execute Webpack
 ```sh
 yarn webpack
@@ -77,3 +82,6 @@ Create ENV variable (For any OS)
 ```sh
 yarn add cross-env -D
 ```
+
+
+
