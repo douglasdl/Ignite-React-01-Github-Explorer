@@ -40,3 +40,18 @@ Recognize React for Babel conversion
 ```sh
 yarn add @babel/preset-react -D
 ```
+
+[Webpack](https://webpack.js.org/): static module bundler for modern JavaScript applications.
+Installation
+```sh
+yarn add webpack webpack-cli webpack-dev-server -D
+```
+Integration Babel with Webpack
+```sh
+yarn add babel-loader -D
+```
+Execute Webpack
+```sh
+yarn webpack
+```
+
