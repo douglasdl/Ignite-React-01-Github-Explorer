@@ -98,3 +98,17 @@ yarn add cross-env -D
 
 (SasS)[https://sass-lang.com]: Syntactically Awesome Style Sheets 
 
+(Fast Refresh React)[https://github.com/pmmmwh/react-refresh-webpack-plugin]
+Installation
+```sh
+yarn add -D @pmmmwh/react-refresh-webpack-plugin react-refresh
+```
+
+If have bug, remove this version
+```sh
+yarn remove @pmmmwh/react-refresh-webpack-plugin
+```
+and install this version
+```sh
+yarn add -D @pmmmwh/react-refresh-webpack-plugin@0.5.0-rc.5
+```
