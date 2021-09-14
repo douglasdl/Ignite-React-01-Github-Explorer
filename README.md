@@ -41,6 +41,12 @@ Recognize React for Babel conversion
 yarn add @babel/preset-react -D
 ```
 
+Recognize Typescript for Babel conversion
+```sh
+yarn add @babel/preset-typescript -D
+```
+
+
 [Webpack](https://webpack.js.org/): static module bundler for modern JavaScript applications.
 Installation
 ```sh
@@ -111,4 +117,23 @@ yarn remove @pmmmwh/react-refresh-webpack-plugin
 and install this version
 ```sh
 yarn add -D @pmmmwh/react-refresh-webpack-plugin@0.5.0-rc.5
+```
+
+Install TypeScript as a Development dependency
+```sh
+yarn add typescript -D
+```
+
+Init TypeScript 
+```sh
+yarn tsc --init
+```
+
+Install TypeScript Types
+```sh
+yarn add @types/react-dom -D
+```
+
+```sh
+yarn add @types/react -D
 ```
